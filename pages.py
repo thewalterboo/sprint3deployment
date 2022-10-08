@@ -191,6 +191,16 @@ class Pages:
         st.image("page5pic23.png")
         st.image("page52.png")
         st.image("page53.png")
+        st.image("17.png")
+        st.image("18.png")
+        st.image("19.png")
+        st.image("20.png")
+        st.image("21.png")
+        st.image("22.png")
+        st.image("23.png")
+        st.image("24.png")
+        st.image("26.png")
+        st.image("27.png")
         
         
 
@@ -220,11 +230,3 @@ class Pages:
         st.title(
             "So, how can we help make Zack Tabuldo make the next biggest hit in the United States?"
         )
-    
-    # Page 9 - "References"
-    def references():
-    # Write the title and the subheader
-        st.title(
-            "Project MabuhAI: Uncovering the Different Factors that Make up Unbanked Filipinos"
-        )
-
