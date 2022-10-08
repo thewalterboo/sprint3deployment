@@ -1,4 +1,4 @@
-
+import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 import streamlit as st
@@ -6,12 +6,12 @@ import numpy as np
 
 # Setting general format to the graphs
 sns.set_theme(style="white", font="sans-serif")
-
+st.set_page_config (layout="wide")
 
 
 
 class Pages:
-    st.set_page_config (layout="wide")
+    
     # Page 1 - "The Project"
     def introduction():
     # Write the title and the subheader
@@ -148,12 +148,12 @@ class Pages:
                 
                 st.image("page4pic4.png")
                 st.image("page4pic5.png")
+                
+            
+            with col2:
                 st.image("page4pic6.png")
                 
-
-            with col2:
-                st.image("page5pic22.png")
-                st.image("page4pic2.png")
+                
                 
             
             st.markdown("""
@@ -168,8 +168,11 @@ class Pages:
                 
                 st.image("page4pic3.png")
                 
-            with col2:
-                st.image("page5pic23.png")
+
+            with col2:   
+                st.image("page4pic2.png")
+
+                
                 
                 
                 
@@ -183,6 +186,9 @@ class Pages:
         )
         st.image('page5pic1.png')
         st.image("page51.png")
+        st.image("page4picc2.png")
+        st.image("page5pic22.png")
+        st.image("page5pic23.png")
         st.image("page52.png")
         st.image("page53.png")
         
