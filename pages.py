@@ -125,7 +125,7 @@ class Pages:
 
         # Songs
         with tab1:
-            st.image("page4.png ")
+            st.image("page4.png")
             st.header("These are his solo release songs since 2018.")
             df_pg4 = pd.read_csv('Zack_Tabudlo_2.csv')
             df_pg4 = df_pg4.drop(['Album'], axis=1)
@@ -200,7 +200,7 @@ class Pages:
         st.image("23.png")
         st.image("24.png")
         st.image("26.png")
-        st.image("27.png")
+        st.image("  27.png")
         
         
 
