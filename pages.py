@@ -230,3 +230,4 @@ class Pages:
         st.title(
             "So, how can we help make Zack Tabuldo make the next biggest hit in the United States?"
         )
+        st.image("conclu.png")
