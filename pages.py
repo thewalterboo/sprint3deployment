@@ -125,8 +125,7 @@ class Pages:
 
         # Songs
         with tab1:
-            
-            st.image("page4pic1.png ")
+            st.image("page4.png ")
             st.header("These are his solo release songs since 2018.")
             df_pg4 = pd.read_csv('Zack_Tabudlo_2.csv')
             df_pg4 = df_pg4.drop(['Album'], axis=1)
@@ -200,6 +199,7 @@ class Pages:
         st.subheader(
             "Here is the pipeline that we followed, analyzing the related songs and artists to Zack. We utilized a recommender pool of tracks from the Spotify Philippines Top 200 Charts."
         )
+        st.image('page6pic1.png')
 
     # Page 7 - "Playlists"
     def playlists():
