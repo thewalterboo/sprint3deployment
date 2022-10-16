@@ -224,6 +224,16 @@ class Pages:
             "Suggested Songs and Playlists"
         )
 
+        st.subheader(
+            "These are the recommended songs from our engine."
+        )
+        reco = pd.read_csv("fullreco_playlist.csv")
+        reco = reco[["track_name", "artist_name"]]
+        reco.rename(columns = {'track_name':'Track', 'artist_name' : 'Artist'}, inplace = True)  
+        reco = reco.drop_duplicates()
+        st.dataframe(reco)
+        
+
     # Page 8 - "Conclusions and Recommendations"
     def conc_recomm():
     # Write the title and the subheader
