@@ -13,8 +13,8 @@ list_of_pages = [
 
 ]
 
-st.sidebar.title('Breaking into the US! :notes:')
-st.sidebar.markdown('by Group Mic :microphone: | DSFC10')
+st.sidebar.title('Beating the Beats of NOBITA! :notes:')
+st.sidebar.markdown('by Group py2n :snake: | DSFC11')
 st.sidebar.image("sidebarpic.jpg")
 selection = st.sidebar.radio("Go to: ", list_of_pages)
 
