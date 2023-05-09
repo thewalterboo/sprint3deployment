@@ -5,7 +5,7 @@ list_of_pages = [
     "The Project",
     "NOBITA's Origins",
     "NOBITA's Musical Numbers",
-    "Methods and Anlaysis",
+    "Methods and Analysis",
     "Recommender Engines",
     "Playlists",
     "Conclusions and Recommendations"
