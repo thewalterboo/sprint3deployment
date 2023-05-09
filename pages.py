@@ -16,12 +16,12 @@ class Pages:
     def introduction():
     # Write the title and the subheader
         st.title(
-            "Breaking Zack Tabudlo into the US!"
+            "Beating the Beats of NOBITA!"
         )
         st.subheader(
-            'by Group Mic :microphone: | DSFC10'
+            'by Group py2n :snake: | DSFC11'
             )
-        st.markdown('Div | Sofia | JA | Pim | Andres | R | Mentor: Mike')
+        st.markdown('Denise | Patrick | Walter | Mentor: Andres')
 
         col1, col2 = st.columns(2)
 
@@ -200,7 +200,7 @@ class Pages:
         st.image("23.png")
         st.image("24.png")
         st.image("26.png")
-        st.image("  27.png")
+        st.image("27.png")
         
         
 
