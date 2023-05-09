@@ -21,8 +21,8 @@ selection = st.sidebar.radio("Go to: ", list_of_pages)
 if selection == "The Project":
     Pages.introduction()
 
-elif selection == "Big News for Zack!":
-    Pages.news()
+elif selection == "NOBITA's Origins":
+    Pages.origins()
 
 elif selection == "Look back, Zack!":
     Pages.background()

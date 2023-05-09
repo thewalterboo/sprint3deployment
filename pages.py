@@ -29,7 +29,7 @@ class Pages:
             st.image("page1col1.jpg")
 
         with col2:
-            st.title('Harnessing data to help NOBITA break into the Daily Top 200.')
+            st.title('A Data-Driven Approach to Improving NOBITA\'s Chart Performance.')
             st.subheader('Empowering OPM artists in the Philippines and beyond.')
 
         col1, col2 = st.columns(2)
@@ -44,11 +44,11 @@ class Pages:
 
         
 
-    # Page 2 - "Big News for Zack!
-    def news():
+    # Page 2 - "NOBITA's Origins"
+    def origins():
         # Write the title
         st.title(
-            "Big News for Zack and other OPM Artists!"
+            "An origin story unlike any other"
         )
         st.image("page2pic1.png")
         st.caption(
