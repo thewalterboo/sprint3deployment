@@ -29,17 +29,17 @@ class Pages:
             st.image("page1col1.jpg")
 
         with col2:
-            st.title('Harnessing data to help Zack Tabudlo make big hits in US Charts.')
-            st.subheader('Empowering OPM artists into the global stage.')
+            st.title('Harnessing data to help NOBITA break into the Daily Top 200.')
+            st.subheader('Empowering OPM artists in the Philippines and beyond.')
 
         col1, col2 = st.columns(2)
 
         with col1:
-            st.markdown("### Check out his latest release here!")
-            st.video("https://www.youtube.com/watch?v=i_G6wewjOuY", format="video", start_time=0)
+            st.markdown("### Check out Nobita's all time hit, Ikaw Lang!")
+            st.video("https://www.youtube.com/watch?v=rxXsdj7EBm4", format="video", start_time=0)
 
         with col2:
-            st.image("page1col2.png")
+            st.image("page1col2.jpg")
 
 
         
