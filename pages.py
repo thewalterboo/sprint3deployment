@@ -78,41 +78,9 @@ class Pages:
         #     ##### There are more adult _female_ Filipinos who are unbanked than males.
         #     """)
 
-    # Page 3 - "Zack Tabudlo: Background"
-    def background():
-        st.title(
-            "Who is Zack Tabudlo?"
-        )
-
-        col1, col2 = st.columns(2, gap="small")
-
-        with col1:
-            st.image("page3hist1.png")
-
-        with col2:
-            st.image("page3hist2.png")
-        
-        
-
-        st.subheader("Get to know Zack more!")
-        col1, col2 = st.columns(2, gap="large")
-
-        with col1:
-            st.video("https://www.youtube.com/watch?v=dEVphwbu2xc", format="video", start_time=0)
-
-        with col2:
-            st.markdown('### Zack "Morning" Tabudlo has been present in the music industry since his first appearance in 2014.')
-            st.markdown("### As the years progressed, Zack ventured into songwriting and music production. \
-            In 2020, he joined Island Records Philippines where he continued honing his identity as a musician by releasing solo songs.")
-            st.markdown('### He is now actively collaborating with other OPM and international artists such as **James TW, Billkin, James Reid, and Moira**.')
-            st.write("Visit his channel [here](https://www.youtube.com/channel/UCkOcpvTzdGIygSbNGdaNdSg)!")
-        
-        
-
-        
 
 
-    # Page 4 - "Zack Tabudlo: Statistics"
+    # Page 3 - "Zack Tabudlo: Statistics"
     def statistics():
         # Write the title
         st.title(

@@ -4,7 +4,6 @@ from pages import Pages
 list_of_pages = [
     "The Project",
     "NOBITA's Origins",
-    "Look back, Zack!",
     "Zack's Musical Numbers",
     "The Pitch",
     "Recommender Engines",
@@ -23,9 +22,6 @@ if selection == "The Project":
 
 elif selection == "NOBITA's Origins":
     Pages.origins()
-
-elif selection == "Look back, Zack!":
-    Pages.background()
 
 elif selection == "Zack's Musical Numbers":
     Pages.statistics()
