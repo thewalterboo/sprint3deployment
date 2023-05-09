@@ -52,9 +52,7 @@ class Pages:
         )
         st.image("page2pic1.png")
         st.caption(
-            "Republic Records, the same record label with Ariana Grande, Drake, \
-            Taylor Swift, John Legend, and many other major names in the US Music industry, launches in the Philippines \
-            to **bring Filipino artists to the U.S.**")
+            "According to Sony Music Philippines, NOBITA is a 5-piece Pop Rock band known for their unique take on hugot love songs, such as Ikaw Lang and Unang Sayaw. The band’s layered arrangements are reminiscent of old school Pinoy rock, mixed with intricate vocal blending.")
 
         # tab_educ, tab_emp, tab_sex = st.tabs(["Education", "Employment", "Sex"])
        
