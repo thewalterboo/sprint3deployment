@@ -3,7 +3,7 @@ from pages import Pages
 
 list_of_pages = [
     "The Project",
-    "Big News for Zack!",
+    "NOBITA's Origins",
     "Look back, Zack!",
     "Zack's Musical Numbers",
     "The Pitch",
