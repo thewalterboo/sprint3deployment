@@ -4,8 +4,8 @@ from pages import Pages
 list_of_pages = [
     "The Project",
     "NOBITA's Origins",
-    "Zack's Musical Numbers",
-    "The Pitch",
+    "NOBITA's Musical Numbers",
+    "Methods and Anlaysis",
     "Recommender Engines",
     "Playlists",
     "Conclusions and Recommendations"
@@ -23,10 +23,10 @@ if selection == "The Project":
 elif selection == "NOBITA's Origins":
     Pages.origins()
 
-elif selection == "Zack's Musical Numbers":
+elif selection == "NOBITA's Musical Numbers":
     Pages.statistics()
 
-elif selection == "The Pitch":
+elif selection == "Methods and Analysis":
     Pages.pitch()
 
 elif selection == "Recommender Engines":

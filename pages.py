@@ -23,6 +23,8 @@ class Pages:
             )
         st.markdown('Denise | Patrick | Walter | Mentor: Andres')
 
+        st.image("1.png")
+
         col1, col2 = st.columns(2)
 
         with col1:
@@ -80,63 +82,15 @@ class Pages:
 
 
 
-    # Page 3 - "Zack Tabudlo: Statistics"
+    # Page 3 - "NOBITA's Musical Numbers"
     def statistics():
         # Write the title
         st.title(
-            "Zack, by the Numbers"
+            "NOBITA, by the Numbers"
         )
 
-        tab1, tab2 = st.tabs(["Zack on Spotify", "Zack and Other OPM Artists"])
-
-        # Songs
-        with tab1:
-            st.image("page4.png")
-            st.header("These are his solo release songs since 2018.")
-            df_pg4 = pd.read_csv('Zack_Tabudlo_2.csv')
-            df_pg4 = df_pg4.drop(['Album'], axis=1)
-            df_pg4 = df_pg4.set_index('Year')
-            df_pg4 = df_pg4.iloc[1:,:]
-            st.dataframe(df_pg4, width = 1600)
-
-        # Stats
-        with tab2:
-            st.markdown("""
-            ## Here is Zack Tabuldo's music by the numbers, compared to other popular OPM artists.
-            """)
-            
-            st.markdown("""
-            #### Here's Zack compared to related SOLO artists.
-            """)
-            col1, col2 = st.columns(2, gap="large")
-
-            with col1:
-                
-                st.image("page4pic4.png")
-                st.image("page4pic5.png")
-                
-            
-            with col2:
-                st.image("page4pic6.png")
-                
-                
-                
-            
-            st.markdown("""
-            ####       
-            """)
-            st.markdown("""
-            #### Here's Zack compared to related bands.
-            """)
-            col1, col2 = st.columns(2, gap="large")
-
-            with col1:
-                
-                st.image("page4pic3.png")
-                
-
-            with col2:   
-                st.image("page4pic2.png")
+        st.image("3.png")
+        st.image("4.png")
 
                 
                 
