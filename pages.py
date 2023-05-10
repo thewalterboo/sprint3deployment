@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 import streamlit as st
-import st.components.v1 as components
+import streamlit.components.v1 as components
 import numpy as np
 
 
