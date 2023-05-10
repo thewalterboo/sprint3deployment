@@ -8,7 +8,7 @@ list_of_pages = [
     "Methods and Analysis",
     "Recommender Engines",
     "Playlists",
-    "Conclusions and Recommendations"
+    "Recommendations and Conclusion"
 
 ]
 
@@ -35,5 +35,5 @@ elif selection == "Recommender Engines":
 elif selection == "Playlists":
     Pages.playlists()
 
-elif selection == "Conclusions and Recommendations":
+elif selection == "Recommendations and Conclusion":
     Pages.conc_recomm()

@@ -98,46 +98,36 @@ class Pages:
                 
         
 
-    # Page 5 - "The Pitch"
+    # Page 4 - "Methods and Analysis"
     def pitch():
     # Write the title and the subheader
         st.title(
-            "The question now is, how can we help Zack make US hits?"
+            "The question now is, how can we help NOBITA make the Daily Top 200?"
         )
-        st.image('page5pic1.png')
-        st.image("page51.png")
-        st.image("page4picc2.png")
-        st.image("page5pic22.png")
-        st.image("page5pic23.png")
-        st.image("page52.png")
-        st.image("page53.png")
-        st.image("17.png")
-        st.image("18.png")
-        st.image("19.png")
-        st.image("20.png")
-        st.image("21.png")
-        st.image("22.png")
-        st.image("23.png")
-        st.image("24.png")
-        st.image("26.png")
-        st.image("27.png")
+        st.image('5.png')
+        st.image("6.png")
+        st.image("7.png")
+        st.image("8.png")
+        st.image("9.png")
+        st.image("10.png")
+        st.image("11.png")
         
         
 
 
 
-    # Page 6 - "Recommender Engines"
+    # Page 5 - "Recommender Engines"
     def rec_engines():
     # Write the title and the subheader
         st.title(
             "Methodology and Recommender Engine"
         )
         st.subheader(
-            "Here is the pipeline that we followed, analyzing the related songs and artists to Zack. We utilized a recommender pool of tracks from the Spotify Philippines Top 200 Charts."
+            "Here is the pipeline that we followed, analyzing the related songs and artists to NOBITA. We utilized a recommender pool of tracks from the Spotify Philippines Top 200 Charts."
         )
-        st.image('page6pic1.png')
+        st.image('12.png')
 
-    # Page 7 - "Playlists"
+    # Page 6 - "Playlists"
     def playlists():
     # Write the title and the subheader
         st.title(
@@ -154,10 +144,13 @@ class Pages:
         st.dataframe(reco)
         
 
-    # Page 8 - "Conclusions and Recommendations"
+    # Page 8 - "Recommendations and Conclusion"
     def conc_recomm():
     # Write the title and the subheader
         st.title(
-            "So, how can we help make Zack Tabuldo make the next biggest hit in the United States?"
+            "So, how can we help make NOBITA get on the Daily Top 200?"
         )
-        st.image("conclu.png")
+        st.image("13.png")
+        st.image("14.png")
+        st.image("15.png")
+        st.image("16.png")
