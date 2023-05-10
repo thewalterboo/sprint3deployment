@@ -144,7 +144,7 @@ class Pages:
         st.dataframe(reco)
         
 
-    # Page 8 - "Recommendations and Conclusion"
+    # Page 7 - "Recommendations and Conclusion"
     def conc_recomm():
     # Write the title and the subheader
         st.title(
