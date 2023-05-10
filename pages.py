@@ -3,6 +3,7 @@ import pandas as pd
 import seaborn as sns
 import streamlit as st
 import numpy as np
+from streamlit_player import st_player
 
 # Setting general format to the graphs
 sns.set_theme(style="white", font="sans-serif")
@@ -137,12 +138,9 @@ class Pages:
         st.subheader(
             "These are the recommended songs from our engine."
         )
-        reco = pd.read_csv("fullreco_playlist.csv")
-        reco = reco[["track_name", "artist_name"]]
-        reco.rename(columns = {'track_name':'Track', 'artist_name' : 'Artist'}, inplace = True)  
-        reco = reco.drop_duplicates()
-        st.dataframe(reco)
-        
+
+
+        st_player("https://open.spotify.com/playlist/2GrafQPopdSdPobRxU6OST")
 
     # Page 7 - "Recommendations and Conclusion"
     def conc_recomm():

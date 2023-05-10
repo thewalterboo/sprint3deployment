@@ -1,6 +1,7 @@
 import streamlit as st
 from pages import Pages
 
+
 list_of_pages = [
     "The Project",
     "NOBITA's Origins",
