@@ -2,8 +2,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 import streamlit as st
+import steamlit.components.v1 as components
 import numpy as np
-from streamlit_player import st_player
+
 
 # Setting general format to the graphs
 sns.set_theme(style="white", font="sans-serif")
@@ -138,9 +139,10 @@ class Pages:
         st.subheader(
             "These are the recommended songs from our engine."
         )
+        
+        components.html("<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2GrafQPopdSdPobRxU6OST?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>")
 
-
-        st_player("https://open.spotify.com/playlist/2GrafQPopdSdPobRxU6OST")
+        
 
     # Page 7 - "Recommendations and Conclusion"
     def conc_recomm():
